@@ -1,30 +1,12 @@
-/*
-html, body {
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-}*/
-
-
-/** {
-  box-sizing: border-box;
-  text-align: center;
-}*/
-
 a {
     text-decoration: none;
     color: inherit;
     cursor: auto;
 }
-
 a:hover {
 	color: red;
 }
-
 header {
-  /*padding: 20px;*/
-/*  margin-bottom: 20px;*/
   color: #333;
   background: #ffffff;
   width: 100%;
@@ -33,7 +15,6 @@ header {
   position: relative;
   border: 2px solid #D2D2D2;
 }
-
 #name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -45,36 +26,28 @@ header {
 	background-color: #4aaaa5;	
 	height: 20px;
 }
-
 .wrapper {
 	position: absolute;
-	/*right: 180px;*/
 	left: 820px;
 	width: 270px;
 	height: 85px;
 	background-color: #ffffff;
 }
-
 #left {
-	/*position: absolute;*/
 	float: right;
 	background-color: #ffffff;
 	color: #9d9d9d;
 	border-right: black;
 	padding-top: 35px;
 }
-
 #right {
-	/*position: absolute;*/
 	float: right;
 	background-color: #ffffff;
 	color: #9d9d9d;
 	margin-right: 32px; 
 	padding-top: 35px;
 }
-
 #middle {
-	/*position: absolute;*/
 	float: right;
 	background-color: #ffffff;
 	color: #9d9d9d;
@@ -82,7 +55,6 @@ header {
 	border-color: red;
 
 }
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -91,7 +63,6 @@ header {
   	height: 50px;	
   	width: 1024px;
 }
-
 .infobox {
 	float: left;
 	padding-top: 20px;
@@ -103,7 +74,6 @@ header {
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 }
-
 #boxtitle {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -117,20 +87,17 @@ header {
 	text-align: left;
 	padding-top: 5px;
 }
-
 p {
 	margin: 3% 3% 2% 5%;
 	text-align: left;
 	line-height: 200%;
 }	
-
 img {
 	margin-top: 3%;
 	float: left;
 	margin-left: 5%;
 	margin-right: 2%;
 }
-
 .connectbox {
 	float: left;
 	margin-top: 30px;
@@ -139,9 +106,7 @@ img {
 	height: 160px;
 	margin-left: 40px;
 	border: 1px solid #dddddd;
-
 }
-
 #connectme {
 	margin-top: 10%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -154,44 +119,36 @@ img {
 	margin: 6% 12%;
 	padding-bottom: 5%;
 }
-
 .icons {
 	margin-left: 12%;
 }
-
 #github {
 	float: left;
 	margin-left: 5px;
 	margin: 0px;
 }
- 	
 #github:hover { 	
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
-
 #linkedin {
 	float: left;
 	margin: 0px 5px;
 }
-
 #linkedin:hover { 	
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
-
 #stackoverflow {
 	width: 64px;
 	height: 64px;
 	float: left;
 	margin: 0px;
 }
-
 #stackoverflow:hover { 	
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
-
 footer {
 	background-color: #cccccc;
 	padding: 20px;
@@ -201,15 +158,6 @@ footer {
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
 }
-
-
-/*Form style*/
-
-/*Contact Form style*/
-.contactfix {
-
-}
-
 .formbox {
 	float: left;
 	padding-top: 20px;
@@ -221,15 +169,12 @@ footer {
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 }
-
 .contactinfo {
 	width: 300px;
 	float: left;
 	margin-top: 30px;
 	background-color: #ffffff;
-
 }
-
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -237,21 +182,18 @@ label {
 	margin-bottom: 6px;
 	float: left;
 }
-
 input {
 	text-align: left;
 	width: 595px;
 	margin: 0px 0px 12px 10%;
 	border: 1px solid #dddddd;
 }
-
 textarea{
 	width: 595px;
 	height: 195px;
 	border: 1px solid #dddddd;
 	margin-left: 10%;
 }
-
 button {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -263,7 +205,6 @@ button {
 	margin-left: 10%;
 	float: left;
 }
-
 .portfoliobox {
 	float: left;
 	padding-top: 20px;
@@ -276,8 +217,6 @@ button {
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 }
-
-
 h3 {
 	position: absolute;
 	bottom: 2px;
@@ -290,38 +229,15 @@ h3 {
 	padding-top: 6px;
 	margin-bottom: 2%;
 }
-
-.pic1 {
+.pic1, .pic3, .pic5 {
 	float: left;
 	position: relative;
 	margin-left: 2%;
 	margin-top: 4%;
 }
-
-.pic2 {
+.pic2, .pic4 {
 	float: right;
 	position: relative;
 	margin-right: 6%;
 	margin-top: 4%;
-}
-
-.pic3 {
-	float: left;
-	position: relative;
-	margin-left: 2%;
-	margin-top: 5%;
-}
-
-.pic4 {
-	float: right;
-	position: relative;
-	margin-right: 6%;
-	margin-top: 5%;
-}
-
-.pic5 {
-	float: left;
-	position: relative;
-	margin-left: 2%;
-	margin-top: 5%;
 }
