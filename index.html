@@ -1,49 +1,37 @@
-<!-- STUDENTS: Head to float.css for your assignment -->
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Joel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+      <meta charset="UTF-8">
+      <title>Joel's Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="assets/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-
-<body>
-
+<body background="images/nice_snow.png">
   <header>
-    <section id="name">
-    Joel Hernandez
-    </section>
-
-  <div id="right">
-    Contact
-  </div>
-
-  <div id="middle">
-    Portfolio
-  </div>
-
-  <div id="left">
-    About Me
-  </div>
-
-
+    <h1 id="name">Joel Hernandez</h1>
+        <div class="wrapper">
+                <div id="right"><a href="contact.html">Contact</a></div>
+                <div id="middle"><a href="portfolio.html">Portfolio</a></div>
+                <div id="left"><a href="#">About</a></div>
+        </div>   
   </header>
-
-  <section id="full">
-    <aside>
-      About Me
-      <img src="images/me.png">
-    </aside>
-    <div id="division">
-      Connect with Me
-    </div>
+  <section class="clearfix">
+        <aside class="infobox">
+                <h1 id="boxtitle">About Me</h1>
+                <img src="images/me.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quaerat commodi expedita sint quia vitae animi laborum molestiae recusandae fugiat nisi fuga praesentium nam earum quos, consequatur eos accusamus soluta? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore veniam, blanditiis! Officiis, nobis, doloribus inventore quasi incidunt quam laudantium dolorum quae harum a exercitationem, est dicta consequuntur obcaecati saepe illum!</p>
+        </aside>
+        <aside class="connectbox">
+              <h1 id="connectme">Connect with Me</h1>
+              <div class="icons">
+                  <a href="https://github.com/yocodigo/yocodigo.github.io" target="_blank"><img id="github" alt="My Github" src="images/github.png"></a>
+                  <a href="https://www.linkedin.com/in/joel-hernandez-eng/" target="_blank"><img id="linkedin" alt="My LinkedIn" src="images/linkedin.png"></a> 
+                  <a href="https://stackoverflow.com/users/9120166/j-jo" target="_blank"><img id="stackoverflow" alt="My Stackoverflow" src="images/stackoverflow.png"></a>
+              </div>
+        </aside>
   </section>
-
-  <footer>
-    Copyright @ 2018 Joel Hernandez  
-  </footer>
-
+  <center>
+  <footer>Copyright @ 2018 Joel Hernandez</footer>
+  </center>
 </body>
-
 </html>
